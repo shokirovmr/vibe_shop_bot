@@ -13,8 +13,8 @@ def environment_callback(request):
 
 
 UNFOLD = {
-    "SITE_TITLE": "Django Default",
-    "SITE_HEADER": "Django Default",
+    "SITE_TITLE": "Vibe Shop",
+    "SITE_HEADER": "Vibe Shop",
     "SITE_URL": "/",
     "SITE_ICON": {
         "light": lambda request: static("images/django-logo.webp"),
@@ -33,7 +33,7 @@ UNFOLD = {
     "SHOW_VIEW_ON_SITE": True,
     "SHOW_LANGUAGES": True,
     "ENVIRONMENT": "core.config.unfold.environment_callback",
-    "DASHBOARD_CALLBACK": "apps.shared.views.dashboard_callback",
+    "DASHBOARD_CALLBACK": "apps.shared.views.dashboard.dashboard_callback",
     "LOGIN": {
         "image": lambda request: static("images/login.png"),
     },
@@ -82,7 +82,6 @@ UNFOLD = {
             "flags": {
                 "uz": "🇺🇿",
                 "ru": "🇷🇺",
-                "en": "🇬🇧",
             },
         },
     },
@@ -91,5 +90,5 @@ UNFOLD = {
         "show_all_applications": True,
         "navigation": navigation.PAGES,
     },
-    # "TABS": navigation.TABS,
+    "TABS": navigation.TABS,
 }

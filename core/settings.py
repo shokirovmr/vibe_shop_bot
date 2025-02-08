@@ -101,12 +101,11 @@ USE_TZ = True
 LANGUAGES = (
     ("uz", _("Uzbek")),
     ("ru", _("Russia")),
-    ("en", _("English")),
 )
 
 LOCALE_PATHS = [os.path.join(BASE_DIR, "locale")]
 
-MODELTRANSLATION_LANGUAGES = ("uz", "ru", "en")
+MODELTRANSLATION_LANGUAGES = ("uz", "ru")
 
 MODELTRANSLATION_DEFAULT_LANGUAGE = "uz"
 

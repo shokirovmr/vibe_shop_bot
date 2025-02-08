@@ -25,4 +25,5 @@ DEFAULT_APPS = [
 
 PROJECT_APPS = [
     "apps.shared.apps.SharedConfig",
+    "apps.shop.apps.ShopConfig",
 ]

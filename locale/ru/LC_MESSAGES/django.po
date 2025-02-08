@@ -1,0 +1,354 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-09 00:43+0500\n"
+"PO-Revision-Date: 2025-02-09 00:46+0500\n"
+"Last-Translator:   <>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Translated-Using: django-rosetta 0.10.0\n"
+
+#: apps/bot/handlers/language.py:50
+msgid "Language updated successfully!"
+msgstr ""
+
+#: apps/bot/handlers/register.py:14 apps/bot/keyboard/home.py:7
+msgid "Language"
+msgstr "Язык"
+
+#: apps/bot/handlers/register.py:16 apps/bot/keyboard/home.py:8
+#: apps/shop/models/cart.py:20 apps/shop/models/cart.py:34
+#: core/config/unfold_navigation.py:101 core/config/unfold_navigation.py:136
+#: core/config/unfold_navigation.py:152
+msgid "Cart"
+msgstr "Корзина"
+
+#: apps/bot/handlers/register.py:18 apps/bot/keyboard/home.py:9
+#: apps/shop/models/products.py:25 core/config/unfold_navigation.py:76
+msgid "Products"
+msgstr "Продукты"
+
+#: apps/bot/handlers/register.py:20 apps/bot/keyboard/home.py:10
+#: apps/shop/models/info.py:13 core/config/unfold_navigation.py:109
+msgid "Info"
+msgstr "Инфо"
+
+#: apps/bot/handlers/register.py:22 apps/bot/keyboard/home.py:11
+#: apps/shop/models/donate.py:14
+msgid "Donate"
+msgstr "Донат"
+
+#: apps/bot/handlers/register.py:27
+msgid "Unknown command."
+msgstr ""
+
+#: apps/bot/handlers/register.py:44
+msgid "Unknown action."
+msgstr ""
+
+#: apps/bot/handlers/user.py:25
+msgid ""
+"Welcome to the bot! You can use the main menu to navigate the bot. If you "
+"have any questions, please contact the support team."
+msgstr ""
+
+#: apps/bot/handlers/user.py:31
+msgid "An error occurred."
+msgstr ""
+
+#: apps/bot/middlewares/antiflood_middleware.py:18
+msgid "You are making request too often"
+msgstr ""
+
+#: apps/shared/views/dashboard.py:43 assets/templates/admin/index.html:8
+msgid "Dashboard"
+msgstr ""
+
+#: apps/shared/views/dashboard.py:44
+msgid "Analytics"
+msgstr ""
+
+#: apps/shared/views/dashboard.py:45
+msgid "Settings"
+msgstr ""
+
+#: apps/shared/views/dashboard.py:48
+msgid "All"
+msgstr ""
+
+#: apps/shared/views/dashboard.py:50
+msgid "New"
+msgstr ""
+
+#: apps/shared/views/dashboard.py:160
+msgid "Last week revenue"
+msgstr ""
+
+#: apps/shared/views/dashboard.py:178
+msgid "Last week expenses"
+msgstr ""
+
+#: apps/shop/admin/users.py:32 apps/shop/models/users.py:45
+msgid "Til"
+msgstr ""
+
+#: apps/shop/admin/users.py:42 apps/shop/models/users.py:52
+msgid "Rol"
+msgstr ""
+
+#: apps/shop/admin/users.py:52 apps/shop/models/users.py:24
+msgid "Telegram ID"
+msgstr ""
+
+#: apps/shop/models/cart.py:13
+msgid "User"
+msgstr ""
+
+#: apps/shop/models/cart.py:16 apps/shop/models/donate.py:9
+msgid "Amount"
+msgstr ""
+
+#: apps/shop/models/cart.py:21
+msgid "Carts"
+msgstr ""
+
+#: apps/shop/models/cart.py:40 apps/shop/models/products.py:24
+msgid "Product"
+msgstr ""
+
+#: apps/shop/models/cart.py:42 apps/shop/models/products.py:21
+msgid "Quantity"
+msgstr ""
+
+#: apps/shop/models/cart.py:45
+msgid "Cart item"
+msgstr ""
+
+#: apps/shop/models/cart.py:46
+msgid "Cart items"
+msgstr ""
+
+#: apps/shop/models/category.py:8
+msgid "Name"
+msgstr ""
+
+#: apps/shop/models/category.py:9
+msgid "Is Active"
+msgstr ""
+
+#: apps/shop/models/category.py:12 apps/shop/models/products.py:12
+#: core/config/unfold_navigation.py:68
+msgid "Category"
+msgstr ""
+
+#: apps/shop/models/category.py:13
+msgid "Categories"
+msgstr ""
+
+#: apps/shop/models/donate.py:11 apps/shop/models/info.py:10
+#: apps/shop/models/products.py:20
+msgid "Is active"
+msgstr ""
+
+#: apps/shop/models/donate.py:15
+msgid "Donates"
+msgstr ""
+
+#: apps/shop/models/info.py:8 apps/shop/models/news.py:8
+#: apps/shop/models/products.py:14
+msgid "Title"
+msgstr ""
+
+#: apps/shop/models/info.py:9 apps/shop/models/news.py:9
+#: apps/shop/models/products.py:15
+msgid "Description"
+msgstr ""
+
+#: apps/shop/models/info.py:14
+msgid "Infos"
+msgstr ""
+
+#: apps/shop/models/news.py:11 apps/shop/models/products.py:19
+msgid "Image"
+msgstr ""
+
+#: apps/shop/models/news.py:15 apps/shop/models/news.py:16
+#: core/config/unfold_navigation.py:117
+msgid "News"
+msgstr ""
+
+#: apps/shop/models/order.py:10
+msgid "Pending"
+msgstr ""
+
+#: apps/shop/models/order.py:11
+msgid "Completed"
+msgstr ""
+
+#: apps/shop/models/order.py:12
+msgid "Cancelled"
+msgstr ""
+
+#: apps/shop/models/order.py:31 core/config/unfold_navigation.py:90
+msgid "Order"
+msgstr ""
+
+#: apps/shop/models/order.py:32
+msgid "Orders"
+msgstr ""
+
+#: apps/shop/models/order.py:51
+msgid "Order Item"
+msgstr ""
+
+#: apps/shop/models/order.py:52
+msgid "Order Items"
+msgstr ""
+
+#: apps/shop/models/products.py:17
+msgid "Price"
+msgstr ""
+
+#: apps/shop/models/users.py:13
+msgid "Admin"
+msgstr ""
+
+#: apps/shop/models/users.py:14
+msgid "Moderator"
+msgstr ""
+
+#: apps/shop/models/users.py:15
+msgid "Foydalanuvchi"
+msgstr ""
+
+#: apps/shop/models/users.py:19
+msgid "O'zbek tili"
+msgstr ""
+
+#: apps/shop/models/users.py:20
+msgid "Rus tili"
+msgstr ""
+
+#: apps/shop/models/users.py:29
+msgid "Foydalanuvchi nomi"
+msgstr ""
+
+#: apps/shop/models/users.py:31
+msgid "Ism"
+msgstr ""
+
+#: apps/shop/models/users.py:33
+msgid "Familiya"
+msgstr ""
+
+#: apps/shop/models/users.py:36
+msgid "Ism va Familiya"
+msgstr ""
+
+#: apps/shop/models/users.py:39
+msgid "Telefon raqam"
+msgstr ""
+
+#: apps/shop/models/users.py:47
+msgid "Faolmi"
+msgstr ""
+
+#: apps/shop/models/users.py:57
+msgid "Bot Foydalanuvchisi"
+msgstr ""
+
+#: apps/shop/models/users.py:58
+msgid "Bot Foydalanuvchilari"
+msgstr ""
+
+#: apps/shop/models/users.py:62
+msgid "Bot Foydalnuvchisi"
+msgstr ""
+
+#: assets/templates/admin/base_site.html:3 assets/templates/admin/index.html:8
+msgid "Django site admin"
+msgstr ""
+
+#: assets/templates/admin/base_site.html:6
+#: assets/templates/admin/index.html:18
+msgid "Django administration"
+msgstr ""
+
+#: assets/templates/admin/index.html:35
+msgid "Last 7 days"
+msgstr ""
+
+#: assets/templates/admin/index.html:51
+msgid "Product performance in last 28 days"
+msgstr ""
+
+#: assets/templates/admin/index.html:56
+msgid "The most trending products in last 2 weeks"
+msgstr ""
+
+#: assets/templates/admin/index.html:62
+#, python-format
+msgid ""
+"\n"
+"                            Total revenue between <strong class=\"font-semibold text-font-important-light dark:text-font-important-dark dark:text-white\">1 - 31 October</strong>. Increase <span class=\"text-green-700 font-semibold dark:text-green-400\">+3.14%%</span> comparing to previous month <strong class=\"font-semibold text-font-important-light dark:text-font-important-dark dark:text-white\">1 - 30 September</strong>.\n"
+"                        "
+msgstr ""
+
+#: assets/templates/admin/index.html:83
+msgid "Current system health"
+msgstr ""
+
+#: core/config/unfold.py:10
+msgid "Development"
+msgstr ""
+
+#: core/config/unfold.py:12
+msgid "Production"
+msgstr ""
+
+#: core/config/unfold_navigation.py:21
+msgid "Bosh sahifa"
+msgstr ""
+
+#: core/config/unfold_navigation.py:29 core/config/unfold_navigation.py:40
+msgid "Foydalanuvchilar"
+msgstr ""
+
+#: core/config/unfold_navigation.py:32
+msgid "Guruhlar"
+msgstr ""
+
+#: core/config/unfold_navigation.py:51 core/config/unfold_navigation.py:54
+msgid "Bot Foydalanuvchilar"
+msgstr ""
+
+#: core/config/unfold_navigation.py:65
+msgid "Vibe Shop"
+msgstr ""
+
+#: core/config/unfold_navigation.py:87
+msgid "Vibe Shop Additional"
+msgstr ""
+
+#: core/config/unfold_navigation.py:140 core/config/unfold_navigation.py:156
+msgid "Cart Item"
+msgstr ""
+
+#: core/settings.py:102
+msgid "Uzbek"
+msgstr ""
+
+#: core/settings.py:103
+msgid "Russia"
+msgstr ""

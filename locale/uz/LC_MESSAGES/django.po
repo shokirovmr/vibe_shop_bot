@@ -29,12 +29,12 @@ msgstr ""
 #: apps/shop/models/cart.py:20 apps/shop/models/cart.py:34
 #: core/config/unfold_navigation.py:101 core/config/unfold_navigation.py:136
 #: core/config/unfold_navigation.py:152
-msgid "Cart"
+msgid "Savatcha"
 msgstr ""
 
 #: apps/bot/handlers/register.py:18 apps/bot/keyboard/home.py:9
 #: apps/shop/models/products.py:25 core/config/unfold_navigation.py:76
-msgid "Products"
+msgid "Mahsulotlar"
 msgstr ""
 
 #: apps/bot/handlers/register.py:20 apps/bot/keyboard/home.py:10

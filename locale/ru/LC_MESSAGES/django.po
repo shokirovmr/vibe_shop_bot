@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-09 00:43+0500\n"
-"PO-Revision-Date: 2025-02-09 00:46+0500\n"
+"PO-Revision-Date: 2025-02-10 15:26+0500\n"
 "Last-Translator:   <>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -21,18 +21,18 @@ msgstr ""
 
 #: apps/bot/handlers/language.py:50
 msgid "Language updated successfully!"
-msgstr ""
+msgstr "Язык обновлён успешно!"
 
 #: apps/bot/handlers/register.py:14 apps/bot/keyboard/home.py:7
 msgid "Language"
-msgstr "Язык"
+msgstr "Язык."
 
 #: apps/bot/handlers/register.py:16 apps/bot/keyboard/home.py:8
 #: apps/shop/models/cart.py:20 apps/shop/models/cart.py:34
 #: core/config/unfold_navigation.py:101 core/config/unfold_navigation.py:136
 #: core/config/unfold_navigation.py:152
 msgid "Cart"
-msgstr "Корзина"
+msgstr "Корзина."
 
 #: apps/bot/handlers/register.py:18 apps/bot/keyboard/home.py:9
 #: apps/shop/models/products.py:25 core/config/unfold_navigation.py:76
@@ -51,186 +51,188 @@ msgstr "Донат"
 
 #: apps/bot/handlers/register.py:27
 msgid "Unknown command."
-msgstr ""
+msgstr "Неизвестная команда."
 
 #: apps/bot/handlers/register.py:44
 msgid "Unknown action."
-msgstr ""
+msgstr "Неизвестное действие."
 
 #: apps/bot/handlers/user.py:25
 msgid ""
 "Welcome to the bot! You can use the main menu to navigate the bot. If you "
 "have any questions, please contact the support team."
 msgstr ""
+"Добро пожаловать в бота! Вы можете использовать главное меню для навигации. "
+"Если у вас есть вопросы, свяжитесь со службой поддержки."
 
 #: apps/bot/handlers/user.py:31
 msgid "An error occurred."
-msgstr ""
+msgstr "Произошла ошибка."
 
 #: apps/bot/middlewares/antiflood_middleware.py:18
 msgid "You are making request too often"
-msgstr ""
+msgstr "Вы слишком часто отправляете запросы."
 
 #: apps/shared/views/dashboard.py:43 assets/templates/admin/index.html:8
 msgid "Dashboard"
-msgstr ""
+msgstr "Панель управления."
 
 #: apps/shared/views/dashboard.py:44
 msgid "Analytics"
-msgstr ""
+msgstr "Аналитика."
 
 #: apps/shared/views/dashboard.py:45
 msgid "Settings"
-msgstr ""
+msgstr "Настройки."
 
 #: apps/shared/views/dashboard.py:48
 msgid "All"
-msgstr ""
+msgstr "Все."
 
 #: apps/shared/views/dashboard.py:50
 msgid "New"
-msgstr ""
+msgstr "Новый."
 
 #: apps/shared/views/dashboard.py:160
 msgid "Last week revenue"
-msgstr ""
+msgstr "Доход за прошлую неделю."
 
 #: apps/shared/views/dashboard.py:178
 msgid "Last week expenses"
-msgstr ""
+msgstr "Расходы за прошлую неделю"
 
 #: apps/shop/admin/users.py:32 apps/shop/models/users.py:45
 msgid "Til"
-msgstr ""
+msgstr "До"
 
 #: apps/shop/admin/users.py:42 apps/shop/models/users.py:52
 msgid "Rol"
-msgstr ""
+msgstr "Роль."
 
 #: apps/shop/admin/users.py:52 apps/shop/models/users.py:24
 msgid "Telegram ID"
-msgstr ""
+msgstr "Telegram ID"
 
 #: apps/shop/models/cart.py:13
 msgid "User"
-msgstr ""
+msgstr "Пользователь"
 
 #: apps/shop/models/cart.py:16 apps/shop/models/donate.py:9
 msgid "Amount"
-msgstr ""
+msgstr "Сумма"
 
 #: apps/shop/models/cart.py:21
 msgid "Carts"
-msgstr ""
+msgstr "Корзины"
 
 #: apps/shop/models/cart.py:40 apps/shop/models/products.py:24
 msgid "Product"
-msgstr ""
+msgstr "Продукт"
 
 #: apps/shop/models/cart.py:42 apps/shop/models/products.py:21
 msgid "Quantity"
-msgstr ""
+msgstr "Количество"
 
 #: apps/shop/models/cart.py:45
 msgid "Cart item"
-msgstr ""
+msgstr "Товар в корзине"
 
 #: apps/shop/models/cart.py:46
 msgid "Cart items"
-msgstr ""
+msgstr "Товары в корзине"
 
 #: apps/shop/models/category.py:8
 msgid "Name"
-msgstr ""
+msgstr "Имя"
 
 #: apps/shop/models/category.py:9
 msgid "Is Active"
-msgstr ""
+msgstr "Активен"
 
 #: apps/shop/models/category.py:12 apps/shop/models/products.py:12
 #: core/config/unfold_navigation.py:68
 msgid "Category"
-msgstr ""
+msgstr "Категория"
 
 #: apps/shop/models/category.py:13
 msgid "Categories"
-msgstr ""
+msgstr "Категории"
 
 #: apps/shop/models/donate.py:11 apps/shop/models/info.py:10
 #: apps/shop/models/products.py:20
 msgid "Is active"
-msgstr ""
+msgstr "Активен"
 
 #: apps/shop/models/donate.py:15
 msgid "Donates"
-msgstr ""
+msgstr "Пожертвования"
 
 #: apps/shop/models/info.py:8 apps/shop/models/news.py:8
 #: apps/shop/models/products.py:14
 msgid "Title"
-msgstr ""
+msgstr "Заголовок"
 
 #: apps/shop/models/info.py:9 apps/shop/models/news.py:9
 #: apps/shop/models/products.py:15
 msgid "Description"
-msgstr ""
+msgstr "Описание"
 
 #: apps/shop/models/info.py:14
 msgid "Infos"
-msgstr ""
+msgstr "Информация"
 
 #: apps/shop/models/news.py:11 apps/shop/models/products.py:19
 msgid "Image"
-msgstr ""
+msgstr "Изображение"
 
 #: apps/shop/models/news.py:15 apps/shop/models/news.py:16
 #: core/config/unfold_navigation.py:117
 msgid "News"
-msgstr ""
+msgstr "Новости"
 
 #: apps/shop/models/order.py:10
 msgid "Pending"
-msgstr ""
+msgstr "В ожидании"
 
 #: apps/shop/models/order.py:11
 msgid "Completed"
-msgstr ""
+msgstr "Завершено"
 
 #: apps/shop/models/order.py:12
 msgid "Cancelled"
-msgstr ""
+msgstr "Отменено"
 
 #: apps/shop/models/order.py:31 core/config/unfold_navigation.py:90
 msgid "Order"
-msgstr ""
+msgstr "Заказ"
 
 #: apps/shop/models/order.py:32
 msgid "Orders"
-msgstr ""
+msgstr "Заказы"
 
 #: apps/shop/models/order.py:51
 msgid "Order Item"
-msgstr ""
+msgstr "Элемент заказа"
 
 #: apps/shop/models/order.py:52
 msgid "Order Items"
-msgstr ""
+msgstr "Элементы заказа"
 
 #: apps/shop/models/products.py:17
 msgid "Price"
-msgstr ""
+msgstr "Цена"
 
 #: apps/shop/models/users.py:13
 msgid "Admin"
-msgstr ""
+msgstr "Администратор"
 
 #: apps/shop/models/users.py:14
 msgid "Moderator"
-msgstr ""
+msgstr "Модератор"
 
 #: apps/shop/models/users.py:15
 msgid "Foydalanuvchi"
-msgstr ""
+msgstr "Пользователь"
 
 #: apps/shop/models/users.py:19
 msgid "O'zbek tili"

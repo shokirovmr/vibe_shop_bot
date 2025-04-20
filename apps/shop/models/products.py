@@ -28,3 +28,7 @@ class Product(AbstractBaseModel):
 
     def __str__(self):
         return str(self.title)
+
+
+
+

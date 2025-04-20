@@ -21,11 +21,9 @@ def handle_language(message: Message, bot: TeleBot):
     keyboard = types.InlineKeyboardMarkup(row_width=2)
     logger.info(f"User {message.from_user.id} selected a language.")
 
-    # Create buttons for Russian and Uzbek languages
     uz_button = types.InlineKeyboardButton(text="O'zbek", callback_data="lang_uz")
     ru_button = types.InlineKeyboardButton(text="Русский", callback_data="lang_ru")
 
-    # Add buttons to the keyboard
     keyboard.add(uz_button, ru_button)
 
     bot.send_message(

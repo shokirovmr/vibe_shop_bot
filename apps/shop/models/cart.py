@@ -13,7 +13,7 @@ class Cart(AbstractBaseModel):
         verbose_name=_("User"),
     )
     amount = models.DecimalField(
-        max_digits=100, decimal_places=2, verbose_name=_("Amount")
+        max_digits=100, decimal_places=2, verbose_name=_("Amount"), default=0
     )
 
     class Meta:
